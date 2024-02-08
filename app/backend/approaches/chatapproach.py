@@ -21,10 +21,10 @@ class ChatApproach(Approach, ABC):
     ASSISTANT = "assistant"
 
     query_prompt_few_shots = [
-        {"role": USER, "content": "How did crypto do last year?"},
-        {"role": ASSISTANT, "content": "Summarize Cryptocurrency Market Dynamics from last year"},
-        {"role": USER, "content": "What are my health plans?"},
-        {"role": ASSISTANT, "content": "Show available health plans"},
+        {"role": USER, "content": "How did first aid practice evolved compared to 10 years?"},
+        {"role": ASSISTANT, "content": "Summarize the evolution of first aid practice in the last 10 years"},
+        {"role": USER, "content": "What can I do as first aider?"},
+        {"role": ASSISTANT, "content": "Show available first aid courses in the area"},
     ]
     NO_RESPONSE = "0"
 
