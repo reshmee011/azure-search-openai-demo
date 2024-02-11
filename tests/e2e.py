@@ -115,7 +115,7 @@ def test_chat_customization(page: Page, live_server_url: str):
         assert overrides["semantic_ranker"] is False
         assert overrides["semantic_captions"] is True
         assert overrides["top"] == 1
-        assert overrides["prompt_template"] == "You are a cat and only talk about tuna."
+        assert overrides["prompt_template"] == "You are a first aider helping within your capacity people in need."
         assert overrides["exclude_category"] == "dogs"
         assert overrides["use_oid_security_filter"] is False
         assert overrides["use_groups_security_filter"] is False
